@@ -54,16 +54,13 @@ cd FeudalMultiAgent
 
 Create a Python environment:
 
-```bash
-conda create -n feudal-marl python=3.10
-conda activate feudal-marl
-```
-
 Install PyTorch according to your operating system and CUDA version, then install the remaining dependencies:
 
 ```bash
 pip install -r requirement.txt
 pip install -e .
+pip install seaborn
+pip install pyglet==1.5.27
 ```
 
 ## Training
@@ -71,13 +68,13 @@ pip install -e .
 Train on Simple Reference:
 
 ```bash
-python train_mappo.py --env_name simple_reference_v3 --run_name reference_run
+python train_mappo.py --env_name simple_reference_v3
 ```
 
 Train on Simple Spread:
 
 ```bash
-python train_mappo.py --env_name simple_spread_v3 --run_name spread_run
+python train_mappo.py --env_name simple_spread_v3
 ```
 
 The main experiment settings can be modified in `config.py` or passed through command-line arguments.
@@ -105,7 +102,7 @@ records/<environment>/
 ## TensorBoard
 
 ```bash
-tensorboard --logdir logs/train
+tensorboard --logdir logs/train/<environment>
 ```
 
 ## Acknowledgements
@@ -167,16 +164,13 @@ cd FeudalMultiAgent
 
 建立 Python 環境：
 
-```bash
-conda create -n feudal-marl python=3.10
-conda activate feudal-marl
-```
-
 請先依照作業系統與 CUDA 版本安裝 PyTorch，再安裝其他套件：
 
 ```bash
 pip install -r requirement.txt
 pip install -e .
+pip install seaborn
+pip install pyglet==1.5.27
 ```
 
 ## 模型訓練
@@ -184,13 +178,13 @@ pip install -e .
 訓練 Simple Reference：
 
 ```bash
-python train_mappo.py --env_name simple_reference_v3 --run_name reference_run
+python train_mappo.py --env_name simple_reference_v3
 ```
 
 訓練 Simple Spread：
 
 ```bash
-python train_mappo.py --env_name simple_spread_v3 --run_name spread_run
+python train_mappo.py --env_name simple_spread_v3
 ```
 
 主要實驗參數可在 `config.py` 中修改，也可以透過命令列指定。
@@ -218,7 +212,7 @@ records/<environment>/
 ## TensorBoard
 
 ```bash
-tensorboard --logdir logs/train
+tensorboard --logdir logs/train/<environment>
 ```
 
 ## 致謝
