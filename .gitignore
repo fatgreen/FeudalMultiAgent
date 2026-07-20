@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-env/
+
+# VS Code
+.vscode/
+
+# Environment variables and secrets
+.env
+*.env
+
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# StarCraft / large local dependencies
+StarCraftII/
+3rdparty/
