@@ -39,30 +39,30 @@ The following figures compare FeudalMultiAgent with other multi-agent reinforcem
 
 ### Simple Spread
 
-#### Performance Comparison
-
-<p align="center">
-  <img src="img/simple_spread_v3/simplespread_mean_std_shaded.png" alt="Simple Spread performance comparison" width="900">
-</p>
-
 #### Evaluation Rollout
 
 <p align="center">
   <img src="records/simple_spread_v3/simple_spread_v3_ATTN_Ghead_comparison5_episode=1600001_seed123456.gif" alt="Simple Spread evaluation rollout" width="500">
 </p>
 
-### Simple Reference
-
 #### Performance Comparison
 
 <p align="center">
-  <img src="img/simple_reference_v3/simplereference_mean_std_shaded.png" alt="Simple Reference performance comparison" width="900">
+  <img src="img/simple_spread_v3/simplespread_mean_std_shaded.png" alt="Simple Spread performance comparison" width="900">
 </p>
+
+### Simple Reference
 
 #### Evaluation Rollout
 
 <p align="center">
   <img src="records/simple_reference_v3/simple_reference_v3_ATTN_Ghead_comparison1_episode=120001_seed123456.gif" alt="Simple Reference evaluation rollout" width="500">
+</p>
+
+#### Performance Comparison
+
+<p align="center">
+  <img src="img/simple_reference_v3/simplereference_mean_std_shaded.png" alt="Simple Reference performance comparison" width="900">
 </p>
 
 ## Installation
@@ -203,30 +203,30 @@ This project is inspired by:
 
 ### Simple Spread
 
-#### 方法比較
-
-<p align="center">
-  <img src="img/simple_spread_v3/simplespread_mean_std_shaded.png" alt="Simple Spread 方法比較" width="900">
-</p>
-
 #### 測試結果
 
 <p align="center">
   <img src="records/simple_spread_v3/simple_spread_v3_ATTN_Ghead_comparison5_episode=1600001_seed123456.gif" alt="Simple Spread 測試結果" width="500">
 </p>
 
-### Simple Reference
-
 #### 方法比較
 
 <p align="center">
-  <img src="img/simple_reference_v3/simplereference_mean_std_shaded.png" alt="Simple Reference 方法比較" width="900">
+  <img src="img/simple_spread_v3/simplespread_mean_std_shaded.png" alt="Simple Spread 方法比較" width="900">
 </p>
+
+### Simple Reference
 
 #### 測試結果
 
 <p align="center">
   <img src="records/simple_reference_v3/simple_reference_v3_ATTN_Ghead_comparison1_episode=120001_seed123456.gif" alt="Simple Reference 測試結果" width="500">
+</p>
+
+#### 方法比較
+
+<p align="center">
+  <img src="img/simple_reference_v3/simplereference_mean_std_shaded.png" alt="Simple Reference 方法比較" width="900">
 </p>
 
 ## 安裝方式
