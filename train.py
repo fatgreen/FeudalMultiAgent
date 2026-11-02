@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module='pygame.pkgdata')
 import os
 import torch
 import random
-import pygame
+# import pygame
 import numpy as np
 from tqdm import tqdm
 from collections import deque
@@ -17,7 +17,7 @@ from collections import deque
 from logger import Logger
 from config import get_config
 from utils import make_train_env, state_preprocess
-from FMANet_mappo import FMANetwork, FG_loss
+from FMANet import FMANetwork, FG_loss
 # endregion Imports
 
 os.environ["SDL_VIDEODRIVER"] = "dummy"  # 為了在無顯示器的環境下使用 pygame

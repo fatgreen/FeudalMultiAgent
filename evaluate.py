@@ -13,7 +13,7 @@ import cv2
 import time
 import torch
 import random
-import pygame
+# import pygame
 import imageio
 import argparse
 import numpy as np
@@ -29,7 +29,7 @@ from torch.utils.tensorboard import SummaryWriter
 from config import get_config
 from utils import make_eval_env, state_preprocess, take_action_deterministic
 # from FMANet import FMANetwork
-from FMANet_mappo import FMANetwork
+from FMANet import FMANetwork
 # endregion Imports
 
 args = get_config()
