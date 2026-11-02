@@ -11,10 +11,10 @@ from torch.distributions import Categorical
 import time
 import numpy as np
 from typing import Optional
-import gymnasium as gym
-from gymnasium import spaces
-from gymnasium.core import Wrapper
-from gymnasium.vector import AsyncVectorEnv, SyncVectorEnv
+# import gymnasium as gym
+# from gymnasium import spaces
+# from gymnasium.core import Wrapper
+# from gymnasium.vector import AsyncVectorEnv, SyncVectorEnv
 
 from onpolicy.envs.env_wrappers import SubprocVecEnv, DummyVecEnv
 from onpolicy.envs.mpe.MPE_env import MPEEnv
