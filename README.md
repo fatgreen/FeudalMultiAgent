@@ -95,13 +95,13 @@ pip install pyglet==1.5.27
 Train on Simple Reference:
 
 ```bash
-python train_mappo.py --env_name simple_reference_v3
+python train.py --env_name simple_reference_v3
 ```
 
 Train on Simple Spread:
 
 ```bash
-python train_mappo.py --env_name simple_spread_v3
+python train.py --env_name simple_spread_v3
 ```
 
 The main experiment settings can be modified in `config.py` or passed through command-line arguments.
@@ -149,8 +149,8 @@ tensorboard --logdir logs/train/simple_reference_v3
 ## Main Files
 
 ```text
-FMANet_mappo.py   Manager–Worker network and training losses
-train_mappo.py    Training program
+FMANet.py   Manager–Worker network and training losses
+train.py    Training program
 evaluate.py       Model evaluation and GIF generation
 config.py         Experiment settings
 dilated_lstm.py   Dilated LSTM module
@@ -259,13 +259,13 @@ pip install pyglet==1.5.27
 訓練 Simple Reference：
 
 ```bash
-python train_mappo.py --env_name simple_reference_v3
+python train.py --env_name simple_reference_v3
 ```
 
 訓練 Simple Spread：
 
 ```bash
-python train_mappo.py --env_name simple_spread_v3
+python train.py --env_name simple_spread_v3
 ```
 
 主要實驗參數可在 `config.py` 中修改，也可以透過命令列指定。
@@ -313,8 +313,8 @@ tensorboard --logdir logs/train/simple_reference_v3
 ## 主要檔案
 
 ```text
-FMANet_mappo.py   Manager–Worker 網路與訓練損失
-train_mappo.py    模型訓練程式
+FMANet.py   Manager–Worker 網路與訓練損失
+train.py    模型訓練程式
 evaluate.py       模型測試與 GIF 產生
 config.py         實驗參數設定
 dilated_lstm.py   Dilated LSTM 模組
